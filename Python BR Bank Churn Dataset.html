@@ -1,0 +1,122 @@
+<!DOCTYPE HTML>
+<!--
+	Hyperspace by HTML5 UP
+	html5up.net | @ajlkn
+	Free for personal and commercial use under the CCA 3.0 license (html5up.net/license)
+-->
+<html>
+	<head>
+		<link rel="icon" href="images/muse2.png" type="image/x-icon">
+		<title>Porfolio - Python</title>
+		<meta charset="utf-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
+		<link rel="stylesheet" href="assets/css/main.css" />
+		<noscript><link rel="stylesheet" href="assets/css/noscript.css" /></noscript>
+	</head>
+	<body class="is-preload">
+
+		<!-- Header -->
+			<header id="header">
+				<a href="index.html" class="title">Julian M - Portfolio projects</a>
+				<nav>
+					<ul>
+						<li><a href="index.html">Home</a></li>
+						<li><a href="Python MLR Historical marketing promotion data.html" class="active">Next project</a></li>
+						<!-- <li><a href="elements.html">Elements</a></li> -->
+					</ul>
+				</nav>
+			</header>
+
+		<!-- Wrapper -->
+			<div id="wrapper">
+
+				<!-- Main -->
+					<section id="main" class="wrapper">
+						<div class="inner">
+							<h1 class="major">Python || Binomial logistic regression:  Bank Churn Dataset</h1>
+							<span><img src="images/binds.jpg" alt="" width="500" height="500" /></span>
+							
+							
+
+							<p>In this project, our primary objective is to build a binomial logistic regression model and evaluate the model's performance to demonstrate knowledge of exploratory data analysis (EDA) and a binomial logistic regression model. 
+
+								Our model will help to detect what variables affects the retention od the bank users. This is valuable information for the stakehoders. If we predict the user behavior they can invest in the areas where the retention is low</p>
+							
+							<p>To address the business' request, I will conduct a binomial logistic regression to estimate the likelihood of chirn of each customer</p>
+							<ul>
+								<li>Exploring and cleaning data
+									</li>
+								<li>Using plots and descriptive statistics to select the independent variables
+									</li>
+								<li>Creating a  Binomial logistic regression model
+									</li>
+								<l1>Checking model assumptions
+									</l1>
+								<li>Interpreting model outputs and communicating the results to non-technical stakeholders</li>
+							</ul>
+
+							<h2>Familiarize with the data's features</h2>
+
+							<ul>
+							<li>customer_id, unused variable.
+
+								</li>
+							<li>credit_score, used as input.</li>
+							<li>country, used as input.</li>
+							<li>gender, used as input.</li>
+							<li>age, used as input.</li>
+							<li>tenure, used as input.</li>
+							<li>balance, used as input.</li>
+							<li>products_number, used as input.</li>
+							<li>credit_card, used as input.</li>
+							<li>active_member, used as input.</li>
+							<li>estimated_salary, used as input.</li>
+							<li>churn, used as the target. 1 if the client has left the bank during some period or 0 if he/she has not.</li>
+							</ul>
+								
+								
+							<h2>Check out the process and code c:</h2>
+							<ul class="actions">
+								<li><a href="https://github.com/Juls7again/Project-Files/blob/main/binomial-logistic-regression-bank-churn-dataset.ipynb"  target="_blank" class="button">Check python code</a></li>
+								 
+							</ul>
+							<h2>Conclusions</h2>			
+								<ol>
+									<li>age' was by far the most important feature in the model. It had a positive correlation with user churn (+0.75), User churn rate increased as the values in 'age' increase,This is called a positive linear relationship. The bank should focus on the older user
+										</li>
+									<li>User churn rate decrease as the values in 'credit_score' increase. it's a powerfull insight, maybe the bank must focus in user with poor 'credit_score'
+										</li>
+									<li>In a multiple logistic regression model, features can interact with each other and these interactions can result in seemingly counterintuitive relationships. This is both a strength and a weakness of predictive models, as capturing these interactions typically makes a model more predictive while at the same time making the model more difficult to explain.
+										</li>
+									<li>If we adjust the threshold we can improve the performance of the model. For each model that we make, the threshold is set by the case. We should test various thresholds to evaluate whether our model is the best.</li>
+								  </ol>
+							<ul class="actions">
+								<li><a href="Python MLR Historical marketing promotion data.html" class="button">Next project</a></li>
+								<li><a href="index.html" class="button">Home</a></li> 
+							</ul>
+							
+						</div>
+					</section>
+
+			</div>
+
+		<!-- Footer -->
+			<footer id="footer" class="wrapper alt">
+				<div class="inner">
+					<ul class="menu">
+						<li>&copy; All rights reserved.</li><li>Design: Julian M.</a></li>
+					</ul>
+				</div>
+			</footer>
+
+		<!-- Scripts -->
+			<script src="assets/js/jquery.min.js"></script>
+			<script src="assets/js/jquery.scrollex.min.js"></script>
+			<script src="assets/js/jquery.scrolly.min.js"></script>
+			<script src="assets/js/browser.min.js"></script>
+			<script src="assets/js/breakpoints.min.js"></script>
+			<script src="assets/js/util.js"></script>
+			<script src="assets/js/main.js"></script>
+
+	</body>
+</html>
